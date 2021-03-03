@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: url("Image/teacher.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+    margin-left: 90px;
+}
+.nav-link{
+    color: white;
+    margin:10px;
+    border-radius: 5px;
+    transition: 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.nav-link:hover{
+    background: #2920b9;
+    color: white;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+}
+.banner-container{
+    height: 100vh;
+}
+.banner-container h1{
+    font-size: 3rem;
+    background-color: blue;
+}
+.banner h1{
+    font-family: 'Dancing Script', cursive;
+}
+#feature{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.feature-col{
+    border: 2px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.feature-col:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px black;
+}
+.icon-style{
+    background-color: #bb0aac;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 5px 0;
+}
+.section-title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.hr-style{
+    border: 5px dotted orangered;
+    border-bottom: none;
+    width: 100px;
+
+}
+#about-me{
+    padding: 3% 10%;
+    background-color: #e8ded2;
+}
+#about-me p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.second span{
+    font-weight: 700 !important;
+}
+#tutorial{
+    padding: 4% 10%;
+    background-color: #a3d3ca;
+}
+.card{
+    transition: .4s;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 6px black;
+}
+.image{
+    border: 2px solid deeppink;
+}
+#feedback{
+    padding: 15px;
+    background-color: #5eaaa8;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1rem;
+}
+#contact{
+    padding: 2% 10%;
+    background-color: #5eaaa8;
+}
+footer{
+    padding:2% 10%;
+    background-color: #056676;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+}
+
+@media(max-width:768px){
+    .nav-link{
+        background-color: rgb(0,0,0,0.7);
+    }
+}
